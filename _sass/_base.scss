@@ -125,8 +125,22 @@ body {
     width: 42%;
     height: 56%;
     background-color: white;
-    border-radius: 61% 26% 29% 0% / 51% 35% 9% 54%;
+    border-radius: 89% 26% 29% 0% / 51% 35% 9% 54%;
     transform: rotate(-10deg);
+
+    &:after {
+        content: " ";
+        width: 39px;
+        height: 101px;
+        position: absolute;
+        display: block;
+        left: 52%;
+        top: -42px;
+        background: gainsboro;
+        transform: rotate(-109deg);
+        border-radius: 30% 71% 54% 12% / 39% 69% 46% 30%;
+        z-index: -1;
+    }
 }
 
 .front-lapel {
@@ -145,7 +159,7 @@ body {
     height: 25%;
     right: 0;
     transform: rotate(66deg);
-    border-radius: 9% 9% 3% 5%;
+    border-radius: 7% 9% 3% 38% / 26% 9% 9% 100%;
 }
 
 .hood-fold {
@@ -169,6 +183,34 @@ body {
         transform: rotate(-86deg);
         border-radius: 30% / 30%;
     }
+}
+
+.jacket-left {
+    top: 47.3%;
+    left: 16%;
+    width: 23%;
+    height: 60%;
+    background-color: lavenderblush;
+    border-radius: 25% 0 51% 0 / 10% 0 70% 0;
+    transform: rotate(32deg);
+}
+
+.shirt-top {
+    top: 50%;
+    left: 38%;
+    width: 20%;
+    height: 39%;
+    background-color: lightpink;
+    border-radius: 57% 0 0 87% / 49% 0 0 54%;
+}
+
+.back-hood {
+    background-color: crimson;
+    width: 27%;
+    height: 25%;
+    right: 0;
+    transform: rotate(66deg);
+    border-radius: 7% 9% 3% 38% / 26% 9% 9% 100%;
 }
 
 .upper-arm {
